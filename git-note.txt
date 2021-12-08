@@ -1,0 +1,41 @@
+git init (initalize git project)
+git status (see status)
+git add . (add all file in git staging mode)
+git commit -m "first commit"
+git branch -dev 
+git remote remote_name
+git push -u origin
+
+
+=================================
+ git log or git log --oneline(see commit)  
+git checkout commit_name code
+
+===============
+ Create New Branch
+         git branch dev
+
+============
+Delete Branch
+	git branch -D branch_name
+================
+switch branch
+git checkout branch_name
+=======
+
+
+Generate shh key
+ssh-keygen
+enter key (3 click)
+cat~/ssh/id_rsa.pub
+ssh-key copy
+github=>setting=>deploy key
+
+
+pull update project from github(first method)
+git branch dev
+git checkout dev
+git pull origin
+
+second method
+git fetch origin
