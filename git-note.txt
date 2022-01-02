@@ -36,6 +36,16 @@ pull update project from github(first method)
 git branch dev
 git checkout dev
 git pull origin
-
+===============
 second method
 git fetch origin
+
+invite privite reposity
+-reposity->setting->manage access->add people->type github name or type using github email
+
+->profile->setting->developer setting->personal access token->generate new access token->type note and access all ckeck
+
+Create new branch and ckeck new branch
+------
+git checkout -b branch_name
+===================
